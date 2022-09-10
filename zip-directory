@@ -1,0 +1,9 @@
+Go inside directory
+
+
+cd wordpress
+zip -r zipname.zip .
+
+if you want to exlude .git directory
+
+zip -r zipname.zip . --exclude='*.git*'
